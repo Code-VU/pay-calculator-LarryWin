@@ -2,7 +2,12 @@ def calculatePay():
     # Implement your solution in between the two comment blocks
     print("calculating pay")
     # This first line is provided for you
-    hrs = input("Enter Hours:")
+    sHours = input("Enter Hours: ")
+    sRate = input("Enter Rate: ")
+    fHours = float(sHours)
+    fRate = float(sRate)
+    pay = fHours * fRate
+    print(pay)
     
     # end assignment
 
