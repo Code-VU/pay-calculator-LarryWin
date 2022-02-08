@@ -33,4 +33,4 @@ def compute_pay(hours, rate):
 ## uncomment calculatePay() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-calculatePay()
+#calculatePay()
