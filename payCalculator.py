@@ -20,9 +20,9 @@ def calculatePay():
     pay = fBasePay + fOvertimePay
     print(round(pay, 1))
 
-    x = int(98.6)
-    print("type: ", type(x))
-    print(x)
+    # x = int(98.6)
+    # print("type: ", type(x))
+    # print(x)
     # end assignment
 
 ## if you want to test locally before you try to sync
