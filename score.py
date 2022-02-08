@@ -1,7 +1,7 @@
 def score():
     sScore = input("Enter score: ")
     fScore = float(sScore)
-    if (fScore > 1.0 or fScore < 0.0):
+    if (fScore >= 1.0 or fScore <= 0.0):
         print('Bad score')
     elif (fScore >= 0.9):
         print('A')
